@@ -2,6 +2,12 @@
 
 A Tableau storyboard of US child poverty rates every five years (2007, 2012, 2017, 2022), framed as a briefing for UNICEF on where to focus intervention efforts.
 
+![US child poverty rate by state, 2007 vs. 2022](images/child_poverty_2007_vs_2022.png)
+
+*Maps recreated in Python from the workbook's data so they can display on GitHub. The full four-year Tableau story is in the workbook.*
+
+In 2022, the highest rates were in Mississippi (26%), Louisiana (25%), West Virginia (25%), New Mexico (23%) and Alabama (22%).
+
 ## Story
 
 | Story point | Finding |

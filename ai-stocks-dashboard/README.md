@@ -2,6 +2,10 @@
 
 An interactive Tableau dashboard that compares how NVIDIA (NVDA) and Microsoft (MSFT) traded against the S&P 500 between January 2023 and October 2025, and links price and volume spikes to AI-related earnings events.
 
+![Normalized growth: NVIDIA vs. Microsoft vs. S&P 500](images/normalized_growth.png)
+
+*Chart recreated in Python from the workbook's data so it can display on GitHub. The original interactive version is in the Tableau workbook. Data is a course-provided practice dataset, so values may differ from actual market prices.*
+
 ## Views
 
 | Sheet | What it shows |
@@ -15,7 +19,7 @@ A dashboard action filters every view by date.
 
 ## Takeaways
 
-- NVDA showed the most dramatic price increase, reflecting strong AI demand. MSFT grew steadily, and the S&P 500 moved most gradually.
+- In this dataset, NVDA ended at 340 vs. 226 for MSFT and 146 for the S&P 500 (all starting at 100). NVDA showed the most dramatic price increase, reflecting strong AI demand. MSFT grew steadily, and the S&P 500 moved most gradually.
 - Volume spikes lined up with major events such as the Q1 2023 and Q3 2024 NVDA earnings releases.
 - Event days stand out as the largest points in the scatter plot, where price and volume surged together.
 
